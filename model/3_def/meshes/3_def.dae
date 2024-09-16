@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.1.1 commit date:2024-04-15, commit time:15:11, hash:e1743a0317bc</authoring_tool>
+    </contributor>
+    <created>2024-09-15T12:18:28</created>
+    <modified>2024-09-15T12:18:28</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Material_001-effect">
+      <profile_COMMON>
+        <newparam sid="wall_1spall_0crack_png-surface">
+          <surface type="2D">
+            <init_from>wall_1spall_0crack_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="wall_1spall_0crack_png-sampler">
+          <sampler2D>
+            <source>wall_1spall_0crack_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="wall_1spall_0crack_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material_002-effect">
+      <profile_COMMON>
+        <newparam sid="wall_0spall_2crack_png-surface">
+          <surface type="2D">
+            <init_from>wall_0spall_2crack_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="wall_0spall_2crack_png-sampler">
+          <sampler2D>
+            <source>wall_0spall_2crack_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="wall_0spall_2crack_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material_003-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.3564039 0.3712392 0.3967533 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material_004-effect">
+      <profile_COMMON>
+        <newparam sid="rough_top_0spall_0crack_png_001-surface">
+          <surface type="2D">
+            <init_from>rough_top_0spall_0crack_png_001</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="rough_top_0spall_0crack_png_001-sampler">
+          <sampler2D>
+            <source>rough_top_0spall_0crack_png_001-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="rough_top_0spall_0crack_png_001-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material_005-effect">
+      <profile_COMMON>
+        <newparam sid="rough_wall_1spall_2crack_png-surface">
+          <surface type="2D">
+            <init_from>rough_wall_1spall_2crack_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="rough_wall_1spall_2crack_png-sampler">
+          <sampler2D>
+            <source>rough_wall_1spall_2crack_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="rough_wall_1spall_2crack_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material_006-effect">
+      <profile_COMMON>
+        <newparam sid="rough_top_0spall_0crack_png-surface">
+          <surface type="2D">
+            <init_from>rough_top_0spall_0crack_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="rough_top_0spall_0crack_png-sampler">
+          <sampler2D>
+            <source>rough_top_0spall_0crack_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="rough_top_0spall_0crack_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material_007-effect">
+      <profile_COMMON>
+        <newparam sid="entrance_png-surface">
+          <surface type="2D">
+            <init_from>entrance_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="entrance_png-sampler">
+          <sampler2D>
+            <source>entrance_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="entrance_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material_008-effect">
+      <profile_COMMON>
+        <newparam sid="outside_png-surface">
+          <surface type="2D">
+            <init_from>outside_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="outside_png-sampler">
+          <sampler2D>
+            <source>outside_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="outside_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="entrance_png" name="entrance_png">
+      <init_from>entrance.png</init_from>
+    </image>
+    <image id="outside_png" name="outside_png">
+      <init_from>outside.png</init_from>
+    </image>
+    <image id="rough_top_0spall_0crack_png" name="rough_top_0spall_0crack_png">
+      <init_from>rough_top_0spall_0crack.png</init_from>
+    </image>
+    <image id="rough_top_0spall_0crack_png_001" name="rough_top_0spall_0crack_png_001">
+      <init_from>rough_top_0spall_0crack.png.001.png</init_from>
+    </image>
+    <image id="rough_wall_1spall_2crack_png" name="rough_wall_1spall_2crack_png">
+      <init_from>rough_wall_1spall_2crack.png</init_from>
+    </image>
+    <image id="wall_0spall_2crack_png" name="wall_0spall_2crack_png">
+      <init_from>wall_0spall_2crack.png</init_from>
+    </image>
+    <image id="wall_1spall_0crack_png" name="wall_1spall_0crack_png">
+      <init_from>wall_1spall_0crack.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material_001-material" name="Material.001">
+      <instance_effect url="#Material_001-effect"/>
+    </material>
+    <material id="Material_002-material" name="Material.002">
+      <instance_effect url="#Material_002-effect"/>
+    </material>
+    <material id="Material_003-material" name="Material.003">
+      <instance_effect url="#Material_003-effect"/>
+    </material>
+    <material id="Material_004-material" name="Material.004">
+      <instance_effect url="#Material_004-effect"/>
+    </material>
+    <material id="Material_005-material" name="Material.005">
+      <instance_effect url="#Material_005-effect"/>
+    </material>
+    <material id="Material_006-material" name="Material.006">
+      <instance_effect url="#Material_006-effect"/>
+    </material>
+    <material id="Material_007-material" name="Material.007">
+      <instance_effect url="#Material_007-effect"/>
+    </material>
+    <material id="Material_008-material" name="Material.008">
+      <instance_effect url="#Material_008-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="lwh800x160x280-mesh" name="lwh800x160x280">
+      <mesh>
+        <source id="lwh800x160x280-mesh-positions">
+          <float_array id="lwh800x160x280-mesh-positions-array" count="48">800 -80 -120 800 60 -120 0 -80 -120 0 60 -120 800 60 120 0 60 120 800 -80 120 0 -80 120 800 -80 140 0 -80 140 0 -80 -140 800 -80 -140 0 80 -140 0 80 140 800 80 140 800 80 -140</float_array>
+          <technique_common>
+            <accessor source="#lwh800x160x280-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lwh800x160x280-mesh-normals">
+          <float_array id="lwh800x160x280-mesh-normals-array" count="48">0.5773481 -0.5773547 0.5773481 0.9045314 -0.3015174 0.3015132 -0.577353 -0.577353 0.5773449 -0.9045346 -0.3015031 0.3015179 0.9045348 -0.3015031 -0.3015179 -0.9045315 -0.3015174 -0.3015132 0.577353 -0.577353 -0.5773449 -0.5773481 -0.5773547 -0.5773481 0.5773473 -0.5773551 0.5773485 -0.577354 -0.5773552 0.5773419 -0.5773473 -0.5773551 -0.5773485 0.577354 -0.5773552 -0.5773419 -0.5773711 0.5773466 -0.5773333 -0.5773823 0.5773191 0.5773496 0.5773711 0.5773466 0.5773333 0.5773823 0.5773191 -0.5773496</float_array>
+          <technique_common>
+            <accessor source="#lwh800x160x280-mesh-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lwh800x160x280-mesh-map-0">
+          <float_array id="lwh800x160x280-mesh-map-0-array" count="168">0.1752391 0.9999582 4.18602e-5 0.9999581 0.1752393 4.18808e-5 0.1752393 4.18808e-5 4.18602e-5 0.9999581 4.20185e-5 4.18682e-5 5.47635e-5 5.4773e-5 0.3000219 5.47599e-5 5.48072e-5 0.9999452 5.48072e-5 0.9999452 0.3000219 5.47599e-5 0.300022 0.9999452 0.1752391 0.9999582 4.18602e-5 0.9999582 0.1752393 4.1832e-5 0.1752393 4.1832e-5 4.18602e-5 0.9999582 4.20185e-5 4.18193e-5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7.56424e-5 0.9285067 0.4999996 0.9285067 7.56393e-5 0.9999244 7.56393e-5 0.9999244 0.4999996 0.9285067 0.5714173 0.9999244 0.5714173 0.9999244 0.4999996 0.9285067 0.5 0.07149356 0.5714173 0.9999244 0.5 0.07149356 0.5714178 7.58715e-5 0.5714178 7.58715e-5 0.5 0.07149356 7.56285e-5 7.55741e-5 7.56285e-5 7.55741e-5 0.5 0.07149356 7.55709e-5 0.07149338 0.200052 0.9999134 8.67129e-5 0.9999134 0.2000519 8.65699e-5 0.2000519 8.65699e-5 8.67129e-5 0.9999134 8.65596e-5 8.66549e-5 0.5499914 0.9999133 0.200052 0.9999134 0.5499913 8.65546e-5 0.5499913 8.65546e-5 0.200052 0.9999134 0.2000519 8.65699e-5 0.7499569 0.9999133 0.5499914 0.9999133 0.7499567 8.66221e-5 0.7499567 8.66221e-5 0.5499914 0.9999133 0.5499913 8.65546e-5 7.55741e-5 0.07149332 7.56013e-5 7.55741e-5 0.5 0.07149338 0.5 0.07149338 7.56013e-5 7.55741e-5 0.5714178 7.5683e-5 0.5 0.07149338 0.5714178 7.5683e-5 0.5714176 0.9999243 0.5 0.07149338 0.5714176 0.9999243 0.4999999 0.9285066 0.4999999 0.9285066 0.5714176 0.9999243 7.5901e-5 0.9999244 0.4999999 0.9285066 7.5901e-5 0.9999244 7.5901e-5 0.9285067</float_array>
+          <technique_common>
+            <accessor source="#lwh800x160x280-mesh-map-0-array" count="84" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lwh800x160x280-mesh-vertices">
+          <input semantic="POSITION" source="#lwh800x160x280-mesh-positions"/>
+        </vertices>
+        <triangles material="Material_001-material" count="4">
+          <input semantic="VERTEX" source="#lwh800x160x280-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#lwh800x160x280-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#lwh800x160x280-mesh-map-0" offset="2" set="0"/>
+          <p>6 6 18 8 8 19 7 7 20 7 7 21 8 8 22 9 9 23 2 2 24 10 10 25 0 0 26 0 0 27 10 10 28 11 11 29</p>
+        </triangles>
+        <triangles material="Material_004-material" count="2">
+          <input semantic="VERTEX" source="#lwh800x160x280-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#lwh800x160x280-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#lwh800x160x280-mesh-map-0" offset="2" set="0"/>
+          <p>4 4 12 6 6 13 5 5 14 5 5 15 6 6 16 7 7 17</p>
+        </triangles>
+        <triangles material="Material_005-material" count="2">
+          <input semantic="VERTEX" source="#lwh800x160x280-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#lwh800x160x280-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#lwh800x160x280-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 2 2 3 1 1 4 3 3 5</p>
+        </triangles>
+        <triangles material="Material_006-material" count="2">
+          <input semantic="VERTEX" source="#lwh800x160x280-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#lwh800x160x280-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#lwh800x160x280-mesh-map-0" offset="2" set="0"/>
+          <p>1 1 6 4 4 7 3 3 8 3 3 9 4 4 10 5 5 11</p>
+        </triangles>
+        <triangles material="Material_007-material" count="12">
+          <input semantic="VERTEX" source="#lwh800x160x280-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#lwh800x160x280-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#lwh800x160x280-mesh-map-0" offset="2" set="0"/>
+          <p>2 2 30 3 3 31 10 10 32 10 10 33 3 3 34 12 12 35 12 12 36 3 3 37 5 5 38 12 12 39 5 5 40 13 13 41 13 13 42 5 5 43 9 9 44 9 9 45 5 5 46 7 7 47 0 0 66 11 11 67 1 1 68 1 1 69 11 11 70 15 15 71 1 1 72 15 15 73 14 14 74 1 1 75 14 14 76 4 4 77 4 4 78 14 14 79 8 8 80 4 4 81 8 8 82 6 6 83</p>
+        </triangles>
+        <triangles material="Material_008-material" count="6">
+          <input semantic="VERTEX" source="#lwh800x160x280-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#lwh800x160x280-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#lwh800x160x280-mesh-map-0" offset="2" set="0"/>
+          <p>13 13 48 9 9 49 14 14 50 14 14 51 9 9 52 8 8 53 12 12 54 13 13 55 15 15 56 15 15 57 13 13 58 14 14 59 10 10 60 12 12 61 11 11 62 11 11 63 12 12 64 15 15 65</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="lwh800x160x280" name="lwh800x160x280" type="NODE">
+        <matrix sid="transform">0.005 0 1.86265e-11 -0.01906281 1.86265e-11 -2.18557e-10 -0.005 0.01211572 0 0.005 -2.18557e-10 0.1993323 0 0 0 1</matrix>
+        <instance_geometry url="#lwh800x160x280-mesh" name="lwh800x160x280">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Material_002-material" target="#Material_002-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Material_003-material" target="#Material_003-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Material_004-material" target="#Material_004-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Material_005-material" target="#Material_005-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Material_006-material" target="#Material_006-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Material_007-material" target="#Material_007-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Material_008-material" target="#Material_008-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

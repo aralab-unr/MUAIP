@@ -1,0 +1,30 @@
+<launch>
+  <node pkg="pointcloud_to_laserscan" type="pointcloud_to_laserscan_node" name="pointcloud_to_laserscan">
+
+    <remap from="cloud_in" to="camera_0_rgb_optical_frame"/>
+    <rosparam>
+      target_frame: camera_0_depth_frame
+    </rosparam>
+  </node>
+  <node pkg="gmapping" type="slam_gmapping" name="turtlebot3_slam_gmapping" output="screen">
+    <param name="base_frame" value="base_footprint"/>
+    <param name="odom_frame" value="odom"/>
+    <param name="map_frame"  value="map"/>
+    <rosparam command="load" file="$(find culvert_sim)/config/gmapping_params.yaml" />
+  </node>
+  <node name="culvert_sim" pkg="culvert_sim" type="sim_test.py" output="screen">
+        <param name="w" value="1.5" />
+        <param name="l" value="5.0" />
+        <param name="h" value="0.8" />
+        <param name="scale" value="10" />
+        <param name="offset_x" value="0.0" />
+        <param name="offset_y" value="-0.587" />
+        <param name="offset_z" value="0.0" />
+        <param name="h_fov" value="62.0" />
+        <param name="v_fov" value="48.5" />
+        <param name="near" value="0.2" />
+        <param name="far" value="3.0" />
+    </node>
+
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find culvert_sim)/rviz/rviz.rviz" />
+</launch>
