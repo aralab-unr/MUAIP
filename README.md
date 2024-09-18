@@ -5,6 +5,15 @@
     <img src="./pic/robot.png" alt="drawing" width="800"/>
 </p>
 
+## Dependencies
+The framework has been tested with ROS Noetic and Ubuntu 20.04. The following configuration, along with the required dependencies, has been verified for compatibility:
+
+- [Ubuntu 20.04](https://releases.ubuntu.com/focal/)
+- [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu) 
+- [Depthai Dependencies](https://docs.luxonis.com/software/ros/depthai-ros/build/)
+- [CUDA](https://developer.nvidia.com/cuda-downloads) (Recommend to use CUDA toolkit >= 11 for Ubuntu 20.04)
+- [ultralytics](https://github.com/ultralytics)
+
 ```
 cd <ros workspace>/src
 git clone 
