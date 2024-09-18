@@ -18,22 +18,35 @@ The framework has been tested with ROS Noetic and Ubuntu 20.04. The following co
 - [depthai-ros](https://github.com/luxonis/depthai-ros/tree/noetic)
 - [bunker_ros](https://github.com/agilexrobotics/bunker_ros)
 - [ros_numpy](https://github.com/eric-wieser/ros_numpy)
+- [turtlebot3](https://github.com/ROBOTIS-GIT/turtlebot3) (for simulations)
+- [turtlebot3_simulations](https://github.com/ROBOTIS-GIT/turtlebot3_simulations) (for simulations)
 - [cv_bridge](https://github.com/ros-perception/vision_opencv)
 - [velodyne](https://github.com/ros-drivers/velodyne)
 - [rosserial](https://github.com/ros-drivers/rosserial)
 - [rosserial_arduino](http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup)
 
+## Install
+Use the following commands to download and build the package: (The code is implemented in ROS1)
 ```
 cd <ros workspace>/src
-git clone 
+git clone <repo>
 cd ..
-catkin build culvert_sim 
+catkin build 
 ```
 Put [bigger_rough_3crack_2spall](https://github.com/khuechuong/culvert_sim/tree/main/model/bigger_rough_3crack_2spall) and all other model folder in ```.gazebo/model``` folder
 
 ```
+
 roscd culvert_sim
 cd model
 mv bigger_rough_3crack_2spall ~/.gazebo/model/
 ```
 
+## Simulations
+```
+roslaunch turtlebot3_culvert.launch
+or
+roslaunch turtlebot3_culvert_2_def.launch
+or
+turtlebot3_culvert_3_def.launch
+```
