@@ -14,6 +14,15 @@ The framework has been tested with ROS Noetic and Ubuntu 20.04. The following co
 - [CUDA](https://developer.nvidia.com/cuda-downloads) (Recommend to use CUDA toolkit >= 11 for Ubuntu 20.04)
 - [ultralytics](https://github.com/ultralytics)
 
+## ROS package
+- [depthai-ros](https://github.com/luxonis/depthai-ros/tree/noetic)
+- [bunker_ros](https://github.com/agilexrobotics/bunker_ros)
+- [ros_numpy](https://github.com/eric-wieser/ros_numpy)
+- [cv_bridge](https://github.com/ros-perception/vision_opencv)
+- [velodyne](https://github.com/ros-drivers/velodyne)
+- [rosserial](https://github.com/ros-drivers/rosserial)
+- [rosserial_arduino](http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup)
+
 ```
 cd <ros workspace>/src
 git clone 
