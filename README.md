@@ -55,7 +55,7 @@ turtlebot3_culvert_3_def.launch
 roslaunch sim.launch
 ```
 ## Visual and Condition Assessment
-
+![](https://github.com/aralab-unr/MUAIP/blob/main/pic/er.png)
 
 ## Contact
 - [Chuong Le](mailto:chuong@unr.edu)
