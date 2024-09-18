@@ -44,9 +44,14 @@ mv bigger_rough_3crack_2spall ~/.gazebo/model/
 
 ## Simulations
 ```
+# launch sim environment
 roslaunch turtlebot3_culvert.launch
-or
+    or
 roslaunch turtlebot3_culvert_2_def.launch
-or
+    or
 turtlebot3_culvert_3_def.launch
+
+# launch auto
+roslaunch sim.launch
 ```
+
