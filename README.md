@@ -1,6 +1,9 @@
 # Multi-Sensor Underground Autonomous Inspection Platform
 
 **The effective operation of civil infrastructure is crucial for economic stability. To ensure continued performance,regular maintenance is essential. However, underground infrastructure, like culverts and tunnels, posed more significant challenges in managing and preserving these critical assets suchas maneuverability and anger, slow labor-intensive, defect lo-calization, and superficial assessment. In this paper, we proposea cost-effective solution for infrastructure inspection through the development of an autonomous multi-sensor inspection robot platform. Our solution integrates multiple RGBD cam-eras, a LiDAR, a deep learning based defect etection system, lighting systems, and non-destructive evaluation (NDE) tech-niques for a comprehensive condition assessment. In addition,we integrate a Partially Observable Markov Decision Process(POMDP) framework to find and assess defect areas in confinedand unstructured underground environments. Furthermore, weprovide an open-ource implementation of our framework on GitHub. [[Paper](https://github.com/aralab-unr/MUAIP/blob/main/paper/ICRA2025_Chuong-1_compressed.pdf)]**
+<p align='center'>
+    <img src="./pic/robot.PNG" alt="drawing" width="800"/>
+</p>
 
 ```
 cd <ros workspace>/src
